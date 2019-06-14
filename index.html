@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>福井のオススメ看板メニュー部門</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+#credit {
+    background-image: url(bg.jpg);
+    text-align: center;
+}
+a {
+    color: gray !important;
+    margin: 0;
+    padding: 0;
+
+}
+</style>
+<script src=fukuno.js></script>
+</head>
+<body>
+<script>"use strict"
+window.onload = function() {
+    let list = []
+    for (var i = 0; i < 60; i++) {
+        if (i != 0 && i != 5 && i != 52 && i != 57) {
+            list.push(i)
+        }
+    }
+    shuffle(list)
+    for (var i = 0; i < list.length; i++) {
+        let c = create("img");
+        c.src = "crop/crop" + list[i] + ".jpg"
+        shops.appendChild(c)
+    }
+}
+</script>
+<img src=title.jpg>
+<a href=map.html>
+<div id=shops></div>
+</a>
+<div id=credit>CC BY <a href=http://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/>福井県オープンデータ</a> / <a href=https://ists-fukui.pref.fukui.lg.jp/>ISTS福井大会地元事業実行委員会</a></div>
+</body>
