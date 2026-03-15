@@ -1,4 +1,6 @@
-# Fukui Gourmet Collections / 福井グルメコレクション
+# Fukui Gourmet Collections
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 One-stop web app showcasing recommended local dishes and menus in Fukui, Japan.
 
