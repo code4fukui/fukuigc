@@ -11,14 +11,8 @@ https://code4fukui.github.io/fukuigc/
 - Randomly displays images of recommended local dishes
 - Provides a map view of the featured restaurants
 
-## Requirements
-None. This is a client-side web application.
-
-## Usage
-Open the demo link in a web browser to view the application.
-
 ## Data / API
 The application uses open data from the [Fukui Prefecture Open Data Portal](http://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/) and the [ISTS Fukui Local Organizing Committee](https://ists-fukui.pref.fukui.lg.jp/).
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
